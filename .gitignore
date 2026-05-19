@@ -1,0 +1,16 @@
+# Data
+data/raw/
+
+# Models
+models/*.pkl
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
