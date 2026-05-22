@@ -1,12 +1,12 @@
 # NHS A&E Breach Predictor
 
-A machine learning system that predicts which NHS hospitals are at risk of experiencing high-pressure months — defined as more than 30% of A&E patients waiting over 4 hours. Built on 36 months of real NHS England data covering 122 hospitals per month.
+A machine learning system that predicts which NHS hospitals are at risk of experiencing high-pressure month, defined as more than 30% of A&E patients waiting over 4 hours. Built on 36 months of real NHS England data covering 122 hospitals per month.
 
 ---
 
 ## Problem Statement
 
-NHS hospitals are required to treat, admit, or discharge 95% of A&E patients within 4 hours. In practice, nearly every hospital misses this target. The real operational question is not whether a hospital will breach — but how severely. This model predicts which hospitals will experience high-pressure months (breach rate above 30%), enabling early intervention before the situation becomes critical.
+NHS hospitals are required to treat, admit, or discharge 95% of A&E patients within 4 hours. In practice, nearly every hospital misses this target. The real operational question is not whether a hospital will breach, but how severely. This model predicts which hospitals will experience high-pressure months (breach rate above 30%), enabling early intervention before the situation becomes critical.
 
 ---
 
