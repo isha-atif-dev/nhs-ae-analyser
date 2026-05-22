@@ -66,11 +66,11 @@ nhs-ae-analyser/
 
 Three features were engineered from raw NHS columns:
 
-**breach_rate** — proportion of Type 1 patients waiting over 4 hours (used for target variable creation only, excluded from model features to prevent leakage)
+**breach_rate** : proportion of Type 1 patients waiting over 4 hours (used for target variable creation only, excluded from model features to prevent leakage)
 
-**admission_rate** — proportion of Type 1 patients requiring hospital admission. Captures how many patients needed a bed beyond emergency treatment.
+**admission_rate** : proportion of Type 1 patients requiring hospital admission. Captures how many patients needed a bed beyond emergency treatment.
 
-**severe_wait_ratio** — proportion of patients waiting 12 or more hours after a decision to admit. A direct measure of systemic hospital pressure.
+**severe_wait_ratio** : proportion of patients waiting 12 or more hours after a decision to admit. A direct measure of systemic hospital pressure.
 
 Raw attendance volume (type1_att) was retained as a feature despite weak direct correlation with breach rate. Random Forest uses it in combination with other features rather than in isolation.
 
